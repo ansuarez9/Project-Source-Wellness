@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+		<script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			$(window).load(function() {
+			    $('#slider').nivoSlider({
+     		   	   effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+ 			        slices: 15, // For slice animation
+ 			       	boxCols: 8, // For box animations
+					boxRows: 4, // For box animations
+			        animSpeed: 500, // Slide transition speed
+			        pauseTime: 3000, // How long each slide will show
+			        startSlide: 0, // Set starting Slide (0 index)
+			        directionNav: true, // Next & Prev navigation
+			        controlNav: false, // 1,2,3... navigation
+			        controlNavThumbs: false, // Use thumbnails for Control Nav
+			        pauseOnHover: true, // Stop animation while hovering
+			        manualAdvance: false, // Force manual transitions
+			        prevText: 'Prev', // Prev directionNav text
+			        nextText: 'Next', // Next directionNav text
+			        randomStart: false, // Start on a random slide
+ 			        beforeChange: function(){}, // Triggers before a slide transition
+			        afterChange: function(){}, // Triggers after a slide transition
+			        slideshowEnd: function(){}, // Triggers after all slides have been shown
+			        lastSlide: function(){}, // Triggers when last slide is shown
+			        afterLoad: function(){} // Triggers when slider has loaded
+			    });
+			});
+		</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class = "top"></div><!--END top-->
+        <div class = "container">
+       		 <div class = "wrapper">
+        		<img class = "sourceWellness" src="img/sourceWellness.png" alt="Source Wellness"/>
+        		<div class = "donateBox">
+        			<h3>WE NEED YOUR SUPPORT</h3>
+        			<a class = "donateButton" href = "donate.html">DONATE NOW</a>
+        		</div><!--END donateBox-->
+       		 </div><!--END wrapper-->
+       	</div><!--END container-->
+       	<div class = "navContainer">
+        	<div class = "wrapper">
+        		<div class = "nav">
+ 		       			<a class = "selected">HOME</a>
+        				<a href = "about.html">ABOUT US</a>
+        				<a href = "who_we_are.html">WHO WE ARE</a>
+        				<a href = "services.html">SERVICES</a>
+        				<a href = "testimonials.html">TESTIMONIALS</a>
+     		   			<a href = "resources.html">RESOURCES</a>
+        				<a href = "contact.html">CONTACT</a>
+        		</div><!--END nav-->
+        	</div><!--END wrapper-->
+        </div><!--END navContainer-->
+        <div class = "containerMiddle">
+        	<div class = "wrapper">
+        			<div class = "containerMiddleHeaders">
+        				<h1>From Battle to Balance</h1>
+        				<h2>Integrative medical care for military families touched by the trauma of war</h2>
+        			</div><!--END containerMiddleHeaders-->
+        	<div class="slider-wrapper">
+    			<div id="slider" class="nivoSlider">
+       		 		<img class = "main_image" src="img/hero1.jpg" alt="home"/>
+        			<img class = "main_image" src="img/hero2.jpg" alt="home"/>
+        			<img class = "main_image" src="img/hero3.jpg" alt="home"/>
+        		</div><!--END slide-wrapper-->
+			</div><!--END #slider .nivoSlider-->
+        	</div><!--END wrapper-->
+        </div><!--END containerMiddle-->
+        <div class = "container">
+        	<div class = "wrapper">
+        		<div class = "home_headers">
+        			<h1>Here To Help</h1>
+        			<div class = "founded">
+        			<h5>Founded in 2012.</h5>
+        			<h5>Source Wellness is a 501(c)3 non-profit organization</h5>
+        			</div><!--END founded-->
+        			<h1>Testimonials</h1>
+        			<a href = "testimonials.html" class = "view">View all testimonials</a>
+        		</div><!--END headers-->
+        		<div class = "content">
+        			<div class = "home_contentBox">
+        				<img class = "box_img" src="img/home_offer.jpg" alt="what_we_offer"/>
+        				<h3>WHAT WE OFFER</h3>
+        				<a href = "#">Read More</a>
+        			</div><!--END home_contentBox-->
+        			<div class = "home_contentBox">
+        				<img class = "box_img" src="img/home_who.jpg" alt="who_we_are"/>
+        				<h3>WHO WE HELP</h3>
+        				<a href = "#">Read More</a>
+        			</div><!--END home_contentBox-->
+        			<div class = "home_contentBox">
+        				<img class = "box_img" src="img/home_benefits.jpg" alt="benefits"/>
+        				<h3>BENEFITS</h3>
+        				<a href = "#">Read More</a>
+        			</div><!--END home_contentBox-->
+        			<div class = "home_quotes">
+        				
+        			</div><!--END home_quotes-->
+        		</div><!--END content-->
+        		<div class="clear"></div>
+        	</div><!--END wrapper-->
+        	<div class = "bottomStrip"></div>
+        </div><!--END container-->
+        <div class = "containerBottom">
+        	<div class = "wrapper">
+        		<div class = "navBottom">
+        			<a class = "bottom_select" style = "color: #e2e1e1">Home</a>
+        			<a href = "about.html">About</a>
+        			<a href = "services.html">Services</a>
+        			<a href = "testimonials.html">Testimonials</a>
+        			<a href = "resources.html">Resources</a>
+        			<a href = "contact.html">Contact</a>
+        			<a href = "donate.html">Donate</a>
+        			<a href = "sitemap.html">Sitemap</a>
+        			<a href = "privacy.html">Privacy</a>
+        			<a href = "http://www.joshthomas.com">Website by Josh Thomas</a>
+        			<h6>Source Wellness © 2012</h6>
+        		</div><!--END navBottom-->
+        	</div><!--END wrapper-->
+        </div><!--END containerBottom-->
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>
